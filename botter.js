@@ -27,7 +27,7 @@ function makeRequest() {
     ).then(res => {
     }).catch(err => {
         keepGoing = false;
-        console.log('REQUEST ERRORED! WAITING 10 SECONDS');
+        console.log('Somthing Fucked Upp :/');
         setTimeout(() => {
             keepGoing = true;
 			makeRequest();
